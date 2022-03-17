@@ -47,4 +47,10 @@ img {
     background-size: cover;
 }
 
+.bg_takes_two {
+    background-image: url('/assets/img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 /* #endregion *** Main ***  */
