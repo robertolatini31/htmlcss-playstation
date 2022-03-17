@@ -9,3 +9,13 @@
 }
 
 /* #endregion *** Utility ***  */
+
+
+
+/* #region *** Header ***  */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* #endregion *** Header ***  */
