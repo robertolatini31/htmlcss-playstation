@@ -1,5 +1,7 @@
 :root {
     --arrow_header-color: #A3A3A3;
+    --new_games-bgcolor: #1F1F1F;
+    --ps_plus-bgcolor: #BEBCBB;
 }
 
 /* *** Common ***  */
@@ -16,6 +18,10 @@ img {
 
 .h_600 {
     height: 600px;
+}
+
+.h_400 {
+    height: 400px;
 }
 
 .rounded_20 {
@@ -51,6 +57,14 @@ img {
     background-image: url('/assets/img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
+}
+
+.bg_new_games {
+    background-color: var(--new_games-bgcolor);
+}
+
+.bg_ps_plus {
+    background-color: var(--ps_plus-bgcolor);
 }
 
 /* #endregion *** Main ***  */
