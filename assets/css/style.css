@@ -2,7 +2,10 @@
     --arrow_header-color: #A3A3A3;
     --new_games-bgcolor: #1F1F1F;
     --ps_plus-bgcolor: #BEBCBB;
+    --my_primary-color: #2D64E6;
 }
+
+
 
 /* *** Common ***  */
 
@@ -28,6 +31,11 @@ img {
     border-radius: 20px;
 }
 
+/* @keyframes go_up {
+    0% {top: 0%;}
+    50% {top: -5%;}
+    100% {top: -10%;}
+} */
 
 /* #endregion *** Utility ***  */
 
@@ -54,6 +62,7 @@ img {
 .dropdown-toggle.show::after {
     font: var(--fa-font-solid);
     content: "\f106";
+    color: var(--my_primary-color);
 }
 
 .navbar-nav .dropdown-menu {
@@ -72,6 +81,16 @@ img {
     background-position: center;
     background-size: cover;
 }
+
+.img_up {
+    position: relative;
+    transition: all 1s;
+}
+
+.img_up:hover {
+    transform: translateY(-12px);
+} 
+
 
 .bg_takes_two {
     background-image: url('/assets/img/it-takes-two-hero-banner-desktop.jpg');
