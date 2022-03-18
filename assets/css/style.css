@@ -33,12 +33,6 @@ img {
     border-radius: 20px;
 }
 
-/* @keyframes go_up {
-    0% {top: 0%;}
-    50% {top: -5%;}
-    100% {top: -10%;}
-} */
-
 /* #endregion *** Utility ***  */
 
 
@@ -115,6 +109,11 @@ img {
 
 .bg_ps_now {
     background-color: var(--ps_now-bgcolor);
+}
+
+.small_container {
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 /* #endregion *** Main ***  */
