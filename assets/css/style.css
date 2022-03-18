@@ -98,6 +98,11 @@ img {
     background-size: cover;
 }
 
+.gadget_card:hover {
+    border-bottom: 2px solid var(--my_primary-color);
+    opacity: 100%!important;
+}
+
 .bg_new_games {
     background-color: var(--new_games-bgcolor);
 }
