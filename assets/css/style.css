@@ -82,7 +82,7 @@ img {
 /* #region *** Main ***  */
 
 .bg_returnal {
-    background-image: url('/assets/img/jumbo-bg.png');
+    background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-size: cover;
 }
@@ -98,7 +98,7 @@ img {
 
 
 .bg_takes_two {
-    background-image: url('/assets/img/it-takes-two-hero-banner-desktop.jpg');
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
 }
