@@ -67,6 +67,12 @@ img {
     top: 90%;
 }
 
+.games_link_drop::before {
+    font: var(--fa-font-solid);
+    content: "\f111";
+    color: var(--my_primary-color);
+    font-size: 6px;
+}
 
 
 /* #endregion *** Header ***  */
