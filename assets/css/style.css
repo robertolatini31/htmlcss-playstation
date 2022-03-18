@@ -76,6 +76,9 @@ img {
     font-size: 6px;
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+}
 
 /* #endregion *** Header ***  */
 
