@@ -76,7 +76,8 @@ img {
     font-size: 6px;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.mod_drop_menu .dropdown-item:focus, 
+.mod_drop_menu .dropdown-item:hover {
     background-color: transparent;
 }
 
