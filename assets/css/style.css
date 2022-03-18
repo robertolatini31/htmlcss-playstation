@@ -4,6 +4,7 @@
     --ps_plus-bgcolor: #BEBCBB;
     --my_primary-color: #2D64E6;
     --ps_now-bgcolor: #161C3B;
+    --footer-bgcolor: #00439C;
 
 }
 
@@ -117,3 +118,16 @@ img {
 }
 
 /* #endregion *** Main ***  */
+
+/* #region *** Footer ***  */
+
+footer {
+    background-color: var(--footer-bgcolor);
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+/* #endregion *** Footer ***  */
