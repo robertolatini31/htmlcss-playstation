@@ -35,13 +35,33 @@ img {
 
 /* #region *** Header ***  */
 
-.dropdown-toggle::after {
-    display: none;
-}
 
 .arrow_header {
     color: var(--arrow_header-color);
 }
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+}
+
+.dropdown-toggle.show::after {
+    font: var(--fa-font-solid);
+    content: "\f106";
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    top: 90%;
+}
+
+
 
 /* #endregion *** Header ***  */
 
