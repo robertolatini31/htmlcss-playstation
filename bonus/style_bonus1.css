@@ -1,0 +1,145 @@
+:root {
+    --arrow_header-color: #A3A3A3;
+    --new_games-bgcolor: #1F1F1F;
+    --ps_plus-bgcolor: #BEBCBB;
+    --my_primary-color: #2D64E6;
+    --ps_now-bgcolor: #161C3B;
+    --footer-bgcolor: #00439C;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *** Common ***  */
+
+img {
+    max-width: 100%;
+}
+
+/* #region *** Utility ***  */
+
+.h_1 {
+    height: 1rem;
+}
+
+.h_600 {
+    height: 600px;
+}
+
+.h_400 {
+    height: 400px;
+}
+
+.rounded_20 {
+    border-radius: 20px;
+}
+
+/* #endregion *** Utility ***  */
+
+
+
+/* #region *** Header ***  */
+
+
+.arrow_header {
+    color: var(--arrow_header-color);
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+}
+
+.dropdown-toggle.show::after {
+    font: var(--fa-font-solid);
+    content: "\f106";
+    color: var(--my_primary-color);
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    top: 90%;
+}
+
+.games_link_drop::before {
+    font: var(--fa-font-solid);
+    content: "\f111";
+    color: var(--my_primary-color);
+    font-size: 6px;
+}
+
+.mod_drop_menu .dropdown-item:focus, 
+.mod_drop_menu .dropdown-item:hover {
+    background-color: transparent;
+}
+
+/* #endregion *** Header ***  */
+
+/* #region *** Main ***  */
+
+.bg_returnal {
+    background-image: url('../assets/img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.img_up {
+    position: relative;
+    transition: all 1s;
+}
+
+.img_up:hover {
+    transform: translateY(-16px);
+} 
+
+
+.bg_takes_two {
+    background-image: url('../assets/img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.gadget_card:hover {
+    border-bottom: 2px solid var(--my_primary-color);
+    opacity: 100%!important;
+}
+
+.bg_new_games {
+    background-color: var(--new_games-bgcolor);
+}
+
+.bg_ps_plus {
+    background-color: var(--ps_plus-bgcolor);
+}
+
+.bg_ps_now {
+    background-color: var(--ps_now-bgcolor);
+}
+
+.small_container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* #endregion *** Main ***  */
+
+/* #region *** Footer ***  */
+
+footer {
+    background-color: var(--footer-bgcolor);
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+/* #endregion *** Footer ***  */
