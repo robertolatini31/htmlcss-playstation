@@ -108,7 +108,7 @@ img {
 }
 
 .gadget_card:hover {
-    border-bottom: 2px solid var(--my_primary-color);
+    border-color: var(--bs-primary)!important;
     opacity: 100%!important;
 }
 
